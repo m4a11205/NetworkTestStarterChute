@@ -13,7 +13,7 @@ while true; do
     #
 
     ping 8.8.8.8 -c 10 >> /usr/share/nginx/html/results.txt
-    echo 'ted testing'
+    echo 'ted testing' >> /usr/share/nginx/html/results.txt
     sleep 60
 done
 
